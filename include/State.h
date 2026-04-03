@@ -1,5 +1,8 @@
 #pragma once
 
+#include "Sprite.h"
+#include "Music.h"
+
 class State {
 public:
     State();

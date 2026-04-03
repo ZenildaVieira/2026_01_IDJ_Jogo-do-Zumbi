@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Depurar SDL2",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/programa.exe",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/MinGW/bin/gdb.exe"
+    }
+  ]
+}
