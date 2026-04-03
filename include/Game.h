@@ -3,6 +3,8 @@
 #include <string>
 #include <SDL.h>
 
+class State;
+
 class Game {
 
 public:

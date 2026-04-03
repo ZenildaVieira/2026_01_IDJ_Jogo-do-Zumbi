@@ -28,14 +28,3 @@ bool State::QuitRequested() const {
     return quitRequested;
 }
 
-void State::Run() {
-    while (!state->QuitRequested()) {
-        state->Update(0.0f);
-
-        SDL_RenderClear(renderer);
-        state->Render();
-        SDL_RenderPresent(renderer);
-
-        SDL_Delay(33);
-    }
-}

@@ -1,4 +1,5 @@
 #include "Game.h"
+#include "State.h"
 
 #include <SDL_image.h>
 #include <SDL_mixer.h>
