@@ -3,6 +3,9 @@
 #include <SDL_image.h>
 #include <SDL_mixer.h>
 
+#include <cstdlib>
+#include <iostream>
+
 Game* Game::instance = nullptr;
 
 Game& Game::GetInstance(const std::string& title, int width, int height) {
