@@ -3,7 +3,8 @@
 
 State::State()
     : bg(), music(), quitRequested(false) {
-
+    LoadAssets();
+    music.Play(-1);
 }
 
 void State::LoadAssets() {
